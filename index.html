@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax and Promises</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <p>Test</p>
+
+    <div class="game_list">
+        <label for="cars" class="cars_label">Choose a car:</label>
+        <select class="mybox" id="games" name="games" size="5">
+        </select>
+    </div>
+
+    <form>
+        <div class="contact-us">
+            <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Title</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_title">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_description">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Release date</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_rdate">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Genre</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_genre">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Publisher</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_publisher">
+            </div>
+            </div>
+            <div class="form-group row">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Image</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="game_imageUrl">
+            </div>
+            </div>
+            <button id="create" type="submit" class="btn btn-primary">Create</button>
+            <button id="delete" type="submit" class="btn btn-primary">Delete</button>
+            <button id="update" type="submit" class="btn btn-primary">Update</button>
+        </div>
+      </form>
+
+</body>
+</html>

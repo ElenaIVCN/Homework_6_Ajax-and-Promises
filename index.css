@@ -1,0 +1,21 @@
+.game_list {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+ }
+
+ .mybox {
+     width: 55%;
+ }
+ 
+ .cars_label {
+    border-top: 2px;
+ }
+
+ .contact-us {
+    max-width: 30rem;
+    margin-left: 2 rem;
+    margin-right: auto;
+    padding: 1rem;
+ }
